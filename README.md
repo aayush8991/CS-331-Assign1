@@ -21,7 +21,7 @@ To run `sniffer.py`, use the following command:
 ```bash
 python3 sniffer.py --interface eth0 --time 60
 ```
-To run tcpreplay, use the following comman:
+To run tcpreplay, use the following command:
 
 ```bash
 tcpreplay --intf1=eth0 --pps=500 7.pcap
