@@ -25,21 +25,12 @@ This repository contains tools for capturing and analyzing network packets, incl
 - tcpreplay
 - sympy
 
-Install required Python packages:
-\```bash
-pip3 install scapy matplotlib sympy
-\```
+
 
 ## Setup
 1. Clone this repository:
-\```bash
-git clone [your-repository-url]
-\```
-
 2. Make the test script executable:
-\```bash
 chmod +x test_script.sh
-\```
 
 ## Usage
 ### Running the test script:
@@ -55,12 +46,12 @@ This will:
 ### Running tools individually:
 1. Part 1 (Basic Analysis):
 \```bash
-sudo python3 sniffer.py --interface lo --time 600
+sudo python3 sniffer.py --interface eth0 --time 600
 \```
 
 2. Part 2 (TCP Analysis):
 \```bash
-sudo python3 part2.py --interface lo --time 600
+sudo python3 part2.py --interface eth0 --time 600
 \```
 
 ## Output Files
