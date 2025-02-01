@@ -6,23 +6,77 @@
 - **Aayush Parmar** (22110181)  
 - **Bhoumik Patidar** (22110049)  
 
-## **Overview**  
-The `sniffer.py` file uses the `scapy` library in Python to capture network packets and store them in a list. These packets are then used to answer specific network-related questions.  
+# Network Packet Analysis Tool
 
-## **Requirements**  
-- `scapy`  
-- `argparse`  
+This repository contains tools for capturing and analyzing network packets, including basic packet statistics and TCP-specific analysis.
 
-## **Usage**  
+## Files
+- `sniffer.py`: Main packet capture and analysis tool for basic metrics (Part 1)
+- `part2.py`: TCP packet analysis tool for specific conditions (Part 2)
+- `test_script.sh`: Test script to run both tools with tcpreplay
+- Sample output files:
+  - `pcap_analysis.txt`: Contains basic packet analysis results
+  - `tcp_analysis_results.txt`: Contains TCP-specific analysis results
 
-### **Running the Packet Sniffer**  
-To run `sniffer.py`, use the following command:  
+## Requirements
+- Python 3.x
+- Scapy
+- Matplotlib
+- tcpreplay
+- sympy
 
-```bash
-python3 sniffer.py --interface eth0 --time 60
-```
-To run tcpreplay, use the following command:
+Install required Python packages:
+\```bash
+pip3 install scapy matplotlib sympy
+\```
 
-```bash
-tcpreplay --intf1=eth0 --pps=500 7.pcap
-```
+## Setup
+1. Clone this repository:
+\```bash
+git clone [your-repository-url]
+\```
+
+2. Make the test script executable:
+\```bash
+chmod +x test_script.sh
+\```
+
+## Usage
+### Running the test script:
+\```bash
+./test_script.sh your_pcap_file.pcap
+\```
+
+This will:
+- Run tcpreplay at 500 pps
+- Execute both analysis tools
+- Generate output files
+
+### Running tools individually:
+1. Part 1 (Basic Analysis):
+\```bash
+sudo python3 sniffer.py --interface lo --time 600
+\```
+
+2. Part 2 (TCP Analysis):
+\```bash
+sudo python3 part2.py --interface lo --time 600
+\```
+
+## Output Files
+- `pcap_analysis.txt`: Contains
+  - Total packets and data transferred
+  - Packet size statistics
+  - Flow information
+  - Source/destination pairs
+
+- `tcp_analysis_results.txt`: Contains analysis of TCP packets matching specific criteria:
+  - ACK+PSH flags with specific port sum
+  - SYN packets with specific conditions
+  - Packets from specific IP ranges
+  - Packets with specific sequence numbers
+
+## Note
+- Requires sudo privileges for packet capture
+- Designed to work with tcpreplay for PCAP file analysis
+- Default configuration uses loopback interface
