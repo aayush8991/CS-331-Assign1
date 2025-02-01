@@ -1,0 +1,1430 @@
+=== TCP Packet Analysis Results ===
+Total packets in PCAP: 246519
+Analysis timestamp: 2025-02-01 23:43:22
+
+
+Question 1: TCP Packets with ACK+PSH flags and port sum = 60303
+----------------------------------------------------------------------
+No matching packets found.
+
+Question 2: TCP Packets with SYN flag, source port % 11 = 0, seq > 100000
+----------------------------------------------------------------------
+Match 1:
+Source IP: 10.7.11.235
+Destination IP: 10.240.8.31
+Source Port: 53669
+Sequence Number: 1135827499
+
+Match 2:
+Source IP: 10.7.11.235
+Destination IP: 10.240.8.31
+Source Port: 53669
+Sequence Number: 1135827499
+
+Match 3:
+Source IP: 10.7.11.235
+Destination IP: 10.240.8.31
+Source Port: 53669
+Sequence Number: 1135827499
+
+Match 4:
+Source IP: 10.7.11.235
+Destination IP: 10.240.8.31
+Source Port: 53669
+Sequence Number: 1135827499
+
+Match 5:
+Source IP: 10.7.11.235
+Destination IP: 3.111.224.186
+Source Port: 53680
+Sequence Number: 1843464350
+
+Match 6:
+Source IP: 10.7.11.235
+Destination IP: 142.250.199.170
+Source Port: 53691
+Sequence Number: 3864593481
+
+Match 7:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 55968
+Sequence Number: 1634793694
+
+Match 8:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 55979
+Sequence Number: 1697408818
+
+Match 9:
+Source IP: 10.240.0.249
+Destination IP: 74.125.200.84
+Source Port: 55990
+Sequence Number: 1319070992
+
+Match 10:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56001
+Sequence Number: 2627968761
+
+Match 11:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56012
+Sequence Number: 4080225443
+
+Match 12:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56023
+Sequence Number: 1601271628
+
+Match 13:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56034
+Sequence Number: 1298736247
+
+Match 14:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56045
+Sequence Number: 565689128
+
+Match 15:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56056
+Sequence Number: 2083406593
+
+Match 16:
+Source IP: 10.240.0.249
+Destination IP: 13.107.246.68
+Source Port: 56067
+Sequence Number: 3725045427
+
+Match 17:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56078
+Sequence Number: 489591079
+
+Match 18:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56089
+Sequence Number: 923235564
+
+Match 19:
+Source IP: 10.240.0.249
+Destination IP: 54.192.142.105
+Source Port: 56100
+Sequence Number: 489215974
+
+Match 20:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56111
+Sequence Number: 3784201623
+
+Match 21:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 56122
+Sequence Number: 483677944
+
+Match 22:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 56122
+Sequence Number: 483677944
+
+Match 23:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56133
+Sequence Number: 610289821
+
+Match 24:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56144
+Sequence Number: 3215085191
+
+Match 25:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56155
+Sequence Number: 3601884486
+
+Match 26:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 56166
+Sequence Number: 9990177
+
+Match 27:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 56188
+Sequence Number: 3475370223
+
+Match 28:
+Source IP: 10.240.0.249
+Destination IP: 54.88.64.163
+Source Port: 56199
+Sequence Number: 4036858493
+
+Match 29:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57684
+Sequence Number: 2556041965
+
+Match 30:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57695
+Sequence Number: 1120030140
+
+Match 31:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 57706
+Sequence Number: 2438868835
+
+Match 32:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57717
+Sequence Number: 2480551110
+
+Match 33:
+Source IP: 10.240.15.129
+Destination IP: 10.240.0.249
+Source Port: 61776
+Sequence Number: 1851789802
+
+Match 34:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 57739
+Sequence Number: 4103442743
+
+Match 35:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57750
+Sequence Number: 218467129
+
+Match 36:
+Source IP: 10.240.0.249
+Destination IP: 142.250.192.97
+Source Port: 57761
+Sequence Number: 870113671
+
+Match 37:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57772
+Sequence Number: 2332084172
+
+Match 38:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57783
+Sequence Number: 398576829
+
+Match 39:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57794
+Sequence Number: 2948198821
+
+Match 40:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.91
+Source Port: 57805
+Sequence Number: 3425161128
+
+Match 41:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57816
+Sequence Number: 345682895
+
+Match 42:
+Source IP: 10.240.0.249
+Destination IP: 216.239.34.157
+Source Port: 57827
+Sequence Number: 172187650
+
+Match 43:
+Source IP: 10.7.30.15
+Destination IP: 10.240.0.249
+Source Port: 50534
+Sequence Number: 1042964344
+
+Match 44:
+Source IP: 10.240.0.249
+Destination IP: 54.230.112.28
+Source Port: 57838
+Sequence Number: 1766115750
+
+Match 45:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57849
+Sequence Number: 595946373
+
+Match 46:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57860
+Sequence Number: 682462557
+
+Match 47:
+Source IP: 10.240.15.129
+Destination IP: 10.240.0.249
+Source Port: 61798
+Sequence Number: 2126103532
+
+Match 48:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 57871
+Sequence Number: 3235618562
+
+Match 49:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 57871
+Sequence Number: 3235618562
+
+Match 50:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57882
+Sequence Number: 2145812064
+
+Match 51:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57904
+Sequence Number: 1483342831
+
+Match 52:
+Source IP: 10.240.5.114
+Destination IP: 10.240.0.249
+Source Port: 62491
+Sequence Number: 1437718224
+
+Match 53:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57915
+Sequence Number: 1671583317
+
+Match 54:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57926
+Sequence Number: 2877856615
+
+Match 55:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 57937
+Sequence Number: 2549470451
+
+Match 56:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 57948
+Sequence Number: 3697078086
+
+Match 57:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 57948
+Sequence Number: 3697078086
+
+Match 58:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 57959
+Sequence Number: 1425100179
+
+Match 59:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 57959
+Sequence Number: 1425100179
+
+Match 60:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 57970
+Sequence Number: 37308245
+
+Match 61:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 57970
+Sequence Number: 37308245
+
+Match 62:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 57970
+Sequence Number: 37308245
+
+Match 63:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 57970
+Sequence Number: 37308245
+
+Match 64:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 57970
+Sequence Number: 37308245
+
+Match 65:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 57981
+Sequence Number: 490918158
+
+Match 66:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 57981
+Sequence Number: 490918158
+
+Match 67:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 57981
+Sequence Number: 490918158
+
+Match 68:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 57981
+Sequence Number: 490918158
+
+Match 69:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 57981
+Sequence Number: 490918158
+
+Match 70:
+Source IP: 10.240.0.249
+Destination IP: 142.250.193.197
+Source Port: 57992
+Sequence Number: 1401433113
+
+Match 71:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58003
+Sequence Number: 2460698571
+
+Match 72:
+Source IP: 10.240.0.249
+Destination IP: 54.159.218.112
+Source Port: 58014
+Sequence Number: 880337889
+
+Match 73:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58025
+Sequence Number: 4198707750
+
+Match 74:
+Source IP: 10.240.0.249
+Destination IP: 34.199.100.127
+Source Port: 58036
+Sequence Number: 2057417966
+
+Match 75:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58058
+Sequence Number: 1277787452
+
+Match 76:
+Source IP: 10.240.0.249
+Destination IP: 20.190.144.163
+Source Port: 58069
+Sequence Number: 3706517203
+
+Match 77:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58080
+Sequence Number: 1123243945
+
+Match 78:
+Source IP: 10.240.0.249
+Destination IP: 52.70.169.47
+Source Port: 58091
+Sequence Number: 3226365656
+
+Match 79:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58102
+Sequence Number: 3494091527
+
+Match 80:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58113
+Sequence Number: 2751132038
+
+Match 81:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 58124
+Sequence Number: 641228673
+
+Match 82:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 58124
+Sequence Number: 641228673
+
+Match 83:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58135
+Sequence Number: 543048529
+
+Match 84:
+Source IP: 10.240.0.249
+Destination IP: 52.234.227.128
+Source Port: 58146
+Sequence Number: 555877291
+
+Match 85:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58157
+Sequence Number: 2994204539
+
+Match 86:
+Source IP: 10.240.0.249
+Destination IP: 142.250.195.10
+Source Port: 58168
+Sequence Number: 2926957879
+
+Match 87:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58179
+Sequence Number: 894444860
+
+Match 88:
+Source IP: 10.240.0.249
+Destination IP: 142.250.70.102
+Source Port: 58190
+Sequence Number: 2924520839
+
+Match 89:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58201
+Sequence Number: 2028193448
+
+Match 90:
+Source IP: 10.240.0.249
+Destination IP: 104.18.186.31
+Source Port: 58212
+Sequence Number: 501635749
+
+Match 91:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58223
+Sequence Number: 265141598
+
+Match 92:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 58234
+Sequence Number: 529482461
+
+Match 93:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 58234
+Sequence Number: 529482461
+
+Match 94:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 58234
+Sequence Number: 529482461
+
+Match 95:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58245
+Sequence Number: 3084685949
+
+Match 96:
+Source IP: 10.240.0.249
+Destination IP: 142.250.183.67
+Source Port: 58256
+Sequence Number: 49254505
+
+Match 97:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58267
+Sequence Number: 1073366457
+
+Match 98:
+Source IP: 10.240.0.249
+Destination IP: 172.64.146.98
+Source Port: 58278
+Sequence Number: 2202424468
+
+Match 99:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58289
+Sequence Number: 3933157357
+
+Match 100:
+Source IP: 10.240.0.249
+Destination IP: 54.236.225.107
+Source Port: 58300
+Sequence Number: 1241451702
+
+Match 101:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58311
+Sequence Number: 4208003135
+
+Match 102:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58322
+Sequence Number: 1816477931
+
+Match 103:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58333
+Sequence Number: 3543653653
+
+Match 104:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58344
+Sequence Number: 1510629423
+
+Match 105:
+Source IP: 10.240.0.249
+Destination IP: 142.250.77.74
+Source Port: 58355
+Sequence Number: 272081686
+
+Match 106:
+Source IP: 10.240.0.249
+Destination IP: 54.172.165.228
+Source Port: 58366
+Sequence Number: 3888171194
+
+Match 107:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58377
+Sequence Number: 2984915063
+
+Match 108:
+Source IP: 10.240.0.249
+Destination IP: 10.240.0.65
+Source Port: 58388
+Sequence Number: 2132658234
+
+Match 109:
+Source IP: 10.240.0.249
+Destination IP: 10.240.0.65
+Source Port: 58388
+Sequence Number: 2132658234
+
+Match 110:
+Source IP: 10.240.0.249
+Destination IP: 10.240.0.65
+Source Port: 58388
+Sequence Number: 2132658234
+
+Match 111:
+Source IP: 10.240.0.249
+Destination IP: 10.240.0.65
+Source Port: 58388
+Sequence Number: 2132658234
+
+Match 112:
+Source IP: 10.240.0.249
+Destination IP: 142.250.192.46
+Source Port: 58399
+Sequence Number: 1267005825
+
+Match 113:
+Source IP: 10.240.0.249
+Destination IP: 10.240.0.65
+Source Port: 58388
+Sequence Number: 2132658234
+
+Match 114:
+Source IP: 10.240.0.249
+Destination IP: 44.220.239.50
+Source Port: 58410
+Sequence Number: 361825495
+
+Match 115:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58421
+Sequence Number: 1644245515
+
+Match 116:
+Source IP: 10.240.0.249
+Destination IP: 151.101.194.133
+Source Port: 58432
+Sequence Number: 1949975602
+
+Match 117:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58443
+Sequence Number: 2306421081
+
+Match 118:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58454
+Sequence Number: 3644193816
+
+Match 119:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58465
+Sequence Number: 1357254990
+
+Match 120:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58476
+Sequence Number: 2574454473
+
+Match 121:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58487
+Sequence Number: 547512021
+
+Match 122:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58498
+Sequence Number: 3423893230
+
+Match 123:
+Source IP: 10.240.0.249
+Destination IP: 10.240.2.53
+Source Port: 58509
+Sequence Number: 606646974
+
+Match 124:
+Source IP: 10.240.0.249
+Destination IP: 10.240.2.53
+Source Port: 58509
+Sequence Number: 606646974
+
+Match 125:
+Source IP: 10.240.0.249
+Destination IP: 142.250.67.165
+Source Port: 58520
+Sequence Number: 4256921377
+
+Match 126:
+Source IP: 10.240.0.249
+Destination IP: 10.240.2.53
+Source Port: 58509
+Sequence Number: 606646974
+
+Match 127:
+Source IP: 10.240.0.249
+Destination IP: 10.240.2.53
+Source Port: 58509
+Sequence Number: 606646974
+
+Match 128:
+Source IP: 10.240.0.249
+Destination IP: 10.240.2.53
+Source Port: 58509
+Sequence Number: 606646974
+
+Match 129:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58531
+Sequence Number: 2048281092
+
+Match 130:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58542
+Sequence Number: 924641129
+
+Match 131:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58553
+Sequence Number: 945113661
+
+Match 132:
+Source IP: 10.240.0.249
+Destination IP: 142.250.182.163
+Source Port: 58564
+Sequence Number: 161924016
+
+Match 133:
+Source IP: 10.240.0.249
+Destination IP: 13.107.253.48
+Source Port: 58575
+Sequence Number: 1971183760
+
+Match 134:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58586
+Sequence Number: 599035270
+
+Match 135:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58597
+Sequence Number: 2628388112
+
+Match 136:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58608
+Sequence Number: 1838243545
+
+Match 137:
+Source IP: 10.240.0.249
+Destination IP: 57.155.146.244
+Source Port: 58619
+Sequence Number: 1245676227
+
+Match 138:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58630
+Sequence Number: 3974670958
+
+Match 139:
+Source IP: 10.240.0.249
+Destination IP: 13.107.246.68
+Source Port: 58641
+Sequence Number: 111493012
+
+Match 140:
+Source IP: 10.240.0.249
+Destination IP: 52.123.129.14
+Source Port: 58652
+Sequence Number: 1447849594
+
+Match 141:
+Source IP: 10.240.0.249
+Destination IP: 142.250.193.234
+Source Port: 58674
+Sequence Number: 2909466938
+
+Match 142:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58685
+Sequence Number: 73765763
+
+Match 143:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58696
+Sequence Number: 143127979
+
+Match 144:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58707
+Sequence Number: 2676261377
+
+Match 145:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58718
+Sequence Number: 53929318
+
+Match 146:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58729
+Sequence Number: 761682957
+
+Match 147:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 58740
+Sequence Number: 2466194800
+
+Match 148:
+Source IP: 10.240.0.249
+Destination IP: 10.240.8.31
+Source Port: 58740
+Sequence Number: 2466194800
+
+Match 149:
+Source IP: 10.240.0.249
+Destination IP: 142.250.192.3
+Source Port: 58751
+Sequence Number: 1096586152
+
+Match 150:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58762
+Sequence Number: 232875732
+
+Match 151:
+Source IP: 10.240.0.249
+Destination IP: 100.25.225.34
+Source Port: 58773
+Sequence Number: 201933120
+
+Match 152:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58784
+Sequence Number: 2764040130
+
+Match 153:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58795
+Sequence Number: 3054983243
+
+Match 154:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58806
+Sequence Number: 48808208
+
+Match 155:
+Source IP: 10.240.0.249
+Destination IP: 100.25.225.34
+Source Port: 58817
+Sequence Number: 2945675458
+
+Match 156:
+Source IP: 10.240.0.249
+Destination IP: 10.240.0.61
+Source Port: 58828
+Sequence Number: 2215258838
+
+Match 157:
+Source IP: 10.240.0.249
+Destination IP: 10.240.0.61
+Source Port: 58828
+Sequence Number: 2215258838
+
+Match 158:
+Source IP: 10.240.0.249
+Destination IP: 10.240.0.61
+Source Port: 58828
+Sequence Number: 2215258838
+
+Match 159:
+Source IP: 10.240.0.249
+Destination IP: 10.240.0.61
+Source Port: 58828
+Sequence Number: 2215258838
+
+Match 160:
+Source IP: 10.240.0.249
+Destination IP: 10.240.0.61
+Source Port: 58828
+Sequence Number: 2215258838
+
+Match 161:
+Source IP: 10.240.0.249
+Destination IP: 10.240.10.27
+Source Port: 58839
+Sequence Number: 2175924062
+
+Match 162:
+Source IP: 10.240.0.249
+Destination IP: 10.240.10.27
+Source Port: 58839
+Sequence Number: 2175924062
+
+Match 163:
+Source IP: 10.240.0.249
+Destination IP: 10.240.10.27
+Source Port: 58839
+Sequence Number: 2175924062
+
+Match 164:
+Source IP: 10.240.0.249
+Destination IP: 142.250.183.14
+Source Port: 58850
+Sequence Number: 4175060033
+
+Match 165:
+Source IP: 10.240.0.249
+Destination IP: 10.240.10.27
+Source Port: 58839
+Sequence Number: 2175924062
+
+Match 166:
+Source IP: 10.240.0.249
+Destination IP: 10.240.10.27
+Source Port: 58839
+Sequence Number: 2175924062
+
+Match 167:
+Source IP: 10.240.0.249
+Destination IP: 10.240.10.136
+Source Port: 58861
+Sequence Number: 3494281902
+
+Match 168:
+Source IP: 10.240.0.249
+Destination IP: 10.240.10.136
+Source Port: 58861
+Sequence Number: 3494281902
+
+Match 169:
+Source IP: 10.240.0.249
+Destination IP: 54.81.67.106
+Source Port: 58872
+Sequence Number: 1292121080
+
+Match 170:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 58883
+Sequence Number: 3629172339
+
+Match 171:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 58883
+Sequence Number: 3629172339
+
+Match 172:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 58883
+Sequence Number: 3629172339
+
+Match 173:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 58883
+Sequence Number: 3629172339
+
+Match 174:
+Source IP: 10.240.0.249
+Destination IP: 10.240.13.188
+Source Port: 58883
+Sequence Number: 3629172339
+
+Match 175:
+Source IP: 10.240.0.249
+Destination IP: 20.57.85.160
+Source Port: 58894
+Sequence Number: 2104239904
+
+Match 176:
+Source IP: 10.240.0.249
+Destination IP: 10.240.10.136
+Source Port: 58905
+Sequence Number: 3346933193
+
+Match 177:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58916
+Sequence Number: 3543121510
+
+Match 178:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58927
+Sequence Number: 1342539506
+
+Match 179:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58938
+Sequence Number: 2879078487
+
+Match 180:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58949
+Sequence Number: 4073397237
+
+Match 181:
+Source IP: 10.240.0.249
+Destination IP: 142.250.193.78
+Source Port: 58960
+Sequence Number: 3539806282
+
+Match 182:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58971
+Sequence Number: 3154476845
+
+Match 183:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 58982
+Sequence Number: 529864031
+
+Match 184:
+Source IP: 10.240.0.249
+Destination IP: 142.250.192.66
+Source Port: 58993
+Sequence Number: 3469760604
+
+Match 185:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59004
+Sequence Number: 2422032722
+
+Match 186:
+Source IP: 10.240.0.249
+Destination IP: 69.147.80.15
+Source Port: 59015
+Sequence Number: 4200398440
+
+Match 187:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59026
+Sequence Number: 2008107818
+
+Match 188:
+Source IP: 10.240.0.249
+Destination IP: 3.111.224.186
+Source Port: 59037
+Sequence Number: 2741338186
+
+Match 189:
+Source IP: 10.240.0.249
+Destination IP: 69.147.80.12
+Source Port: 59048
+Sequence Number: 4265477896
+
+Match 190:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59059
+Sequence Number: 472584817
+
+Match 191:
+Source IP: 10.240.0.249
+Destination IP: 108.159.61.86
+Source Port: 59070
+Sequence Number: 1007438696
+
+Match 192:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59081
+Sequence Number: 174449136
+
+Match 193:
+Source IP: 10.240.0.249
+Destination IP: 199.232.45.44
+Source Port: 59092
+Sequence Number: 2272692277
+
+Match 194:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59114
+Sequence Number: 1421660208
+
+Match 195:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59125
+Sequence Number: 231839716
+
+Match 196:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59136
+Sequence Number: 609643356
+
+Match 197:
+Source IP: 10.240.0.249
+Destination IP: 199.232.45.44
+Source Port: 59147
+Sequence Number: 1102594752
+
+Match 198:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59158
+Sequence Number: 1025160892
+
+Match 199:
+Source IP: 10.240.0.249
+Destination IP: 34.36.216.150
+Source Port: 59169
+Sequence Number: 2088901800
+
+Match 200:
+Source IP: 10.240.0.249
+Destination IP: 74.214.196.131
+Source Port: 59180
+Sequence Number: 3412487587
+
+Match 201:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59191
+Sequence Number: 1923598222
+
+Match 202:
+Source IP: 10.240.0.249
+Destination IP: 23.36.253.221
+Source Port: 59202
+Sequence Number: 3399844614
+
+Match 203:
+Source IP: 10.240.0.249
+Destination IP: 23.36.253.221
+Source Port: 59213
+Sequence Number: 929072213
+
+Match 204:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59224
+Sequence Number: 2955683057
+
+Match 205:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59235
+Sequence Number: 4028367511
+
+Match 206:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59246
+Sequence Number: 1162556988
+
+Match 207:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59257
+Sequence Number: 1130667193
+
+Match 208:
+Source IP: 10.240.0.249
+Destination IP: 103.43.90.178
+Source Port: 59268
+Sequence Number: 1466243160
+
+Match 209:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59279
+Sequence Number: 1131963452
+
+Match 210:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59290
+Sequence Number: 1071368940
+
+Match 211:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59301
+Sequence Number: 3769418649
+
+Match 212:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59323
+Sequence Number: 355796365
+
+Match 213:
+Source IP: 10.240.0.249
+Destination IP: 52.32.18.145
+Source Port: 59334
+Sequence Number: 3109657696
+
+Match 214:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59345
+Sequence Number: 1252234884
+
+Match 215:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59356
+Sequence Number: 4163602417
+
+Match 216:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59367
+Sequence Number: 1079028641
+
+Match 217:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59378
+Sequence Number: 3510144640
+
+Match 218:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59389
+Sequence Number: 724618343
+
+Match 219:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59400
+Sequence Number: 3504387710
+
+Match 220:
+Source IP: 10.240.0.249
+Destination IP: 54.151.251.104
+Source Port: 59411
+Sequence Number: 601964481
+
+Match 221:
+Source IP: 10.240.0.249
+Destination IP: 10.0.136.7
+Source Port: 59521
+Sequence Number: 2203987830
+
+Match 222:
+Source IP: 10.240.0.249
+Destination IP: 182.161.73.164
+Source Port: 59532
+Sequence Number: 4075602162
+
+Match 223:
+Source IP: 10.7.11.235
+Destination IP: 18.234.0.179
+Source Port: 53251
+Sequence Number: 1902856083
+
+Total matching packets: 223
+
+Question 3: TCP Packets from 18.234.xx.xxx with prime source port and dst port % 11 = 0
+----------------------------------------------------------------------
+Match 1:
+Source IP: 18.234.0.179
+Destination IP: 10.7.11.235
+Source Port (prime): 443
+Destination Port: 53251
+
+Match 2:
+Source IP: 18.234.0.179
+Destination IP: 10.7.11.235
+Source Port (prime): 443
+Destination Port: 53251
+
+Match 3:
+Source IP: 18.234.0.179
+Destination IP: 10.7.11.235
+Source Port (prime): 443
+Destination Port: 53251
+
+Match 4:
+Source IP: 18.234.0.179
+Destination IP: 10.7.11.235
+Source Port (prime): 443
+Destination Port: 53251
+
+Match 5:
+Source IP: 18.234.0.179
+Destination IP: 10.7.11.235
+Source Port (prime): 443
+Destination Port: 53251
+
+Match 6:
+Source IP: 18.234.0.179
+Destination IP: 10.7.11.235
+Source Port (prime): 443
+Destination Port: 53251
+
+Match 7:
+Source IP: 18.234.0.179
+Destination IP: 10.7.11.235
+Source Port (prime): 443
+Destination Port: 53251
+
+Match 8:
+Source IP: 18.234.0.179
+Destination IP: 10.7.11.235
+Source Port (prime): 443
+Destination Port: 53251
+
+Match 9:
+Source IP: 18.234.0.179
+Destination IP: 10.7.11.235
+Source Port (prime): 443
+Destination Port: 53251
+
+Match 10:
+Source IP: 18.234.0.179
+Destination IP: 10.7.11.235
+Source Port (prime): 443
+Destination Port: 53251
+
+Match 11:
+Source IP: 18.234.0.179
+Destination IP: 10.7.11.235
+Source Port (prime): 443
+Destination Port: 53251
+
+Total matching packets: 11
+
+Question 4: TCP Packets with seq + ack = 2512800625 and checksum ending in 70
+----------------------------------------------------------------------
+Match 1:
+Source IP: 10.240.8.31
+Destination IP: 10.7.11.235
+Sequence Number: 1376971233
+Acknowledgement Number: 1135829392
+Checksum: 0xe670
+
