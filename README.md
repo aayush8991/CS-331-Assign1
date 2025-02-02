@@ -34,9 +34,9 @@ chmod +x test_script.sh
 
 ## Usage
 ### Running the test script:
-\```bash
+```bash
 ./test_script.sh your_pcap_file.pcap
-\```
+```
 
 This will:
 - Run tcpreplay at 500 pps
